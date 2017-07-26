@@ -119,8 +119,14 @@ nav span {
 
 /*Info*/
 
+.info-container {
+  margin-top: 3rem;
+  margin-left: 11.5rem;
+  margin-right: 11.5rem;
+}
+
+
 .infos {
-  margin: 3rem 11.5rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -149,4 +155,19 @@ nav span {
 .info h5 {
   margin-top: 1rem;
   line-height: 1.4;
+}
+
+/*Footer*/
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
