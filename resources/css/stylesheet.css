@@ -116,3 +116,37 @@ nav span {
   width: 3.5rem;
   height: auto;
 }
+
+/*Info*/
+
+.infos {
+  margin: 3rem 11.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info.philosophy {
+  margin-right: 5%;
+}
+
+.info h4 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.info h5 {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
