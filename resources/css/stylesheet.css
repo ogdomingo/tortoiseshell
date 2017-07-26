@@ -2,6 +2,7 @@ html {
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica;
+  margin-left: 0;
 }
 
 
@@ -18,8 +19,8 @@ html {
 
 .container {
   margin-top: 1rem;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   height: 30rem;
   width: 996px;
   padding: 0 2rem;
@@ -60,6 +61,10 @@ html {
 
 nav span {
   padding-left: 2rem;
+}
+
+#menu {
+  display: none;
 }
 
 /*Banner*/
@@ -121,8 +126,8 @@ nav span {
 
 .info-container {
   margin-top: 3rem;
-  margin-left: 11.5rem;
-  margin-right: 11.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 
@@ -164,10 +169,93 @@ footer {
   display: flex;
   align-items: center;
   margin-top: 5rem;
+
   padding: 5rem;
 }
 
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .header {
+    height: 22rem;
+  }
+
+  .header .container {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .top-header {
+    margin: 0;
+    width: 100%;
+  }
+
+  .banner h4 {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+
+  .info-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .top-header span {
+    display: none;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  .header,
+  .container {
+    height: 17rem;
+    width: auto;
+  }
+
+
+  .header {
+    background-position: 20%;
+  }
+
+  .banner {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .banner h4 {
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 9rem;
+    line-height: 1.4;
+  }
+
+  .icons {
+    margin: 3.77rem 0;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .icon {
+    margin: 0;
+    margin-bottom: 1.57rem;
+    height: 7rem;
+  }
+
+  .icon h5 {
+    font-size: 0.77rem;
+  }
 }
