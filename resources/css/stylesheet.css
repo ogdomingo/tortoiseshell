@@ -258,4 +258,42 @@ footer img {
   .icon h5 {
     font-size: 0.77rem;
   }
+
+  .infos {
+    flex-direction: column;
+  }
+
+  .info-container {
+    margin-top: 0;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .info h4 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .info h5 {
+    margin: 0 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer {
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  footer img {
+    padding: 0;
+  }
 }
